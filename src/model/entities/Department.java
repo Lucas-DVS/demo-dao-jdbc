@@ -57,7 +57,7 @@ public class Department implements Serializable {
 			return false;
 		return true;
 	}
-
+	
 	@Override
 	public String toString() {
 		return "Department [id=" + id + ", name=" + name + "]";
